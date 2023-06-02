@@ -1,0 +1,13 @@
+body{
+    background-color: darkseagreen;
+}
+@media screen and (max-width:720px) {
+    body{
+        background-color: magenta;
+    }
+}
+@media screen and (max-width : 540px) {
+    body{
+        background-color: gold;
+    }
+}
