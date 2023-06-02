@@ -34,8 +34,9 @@ selector1 selector2
 selector1, selector2
     1과 2에 같이 적용
 selector1 + selector2
-
+    > 
 selector1 ~ selector2
+
 ____________________________________
 
 selector:first-child()

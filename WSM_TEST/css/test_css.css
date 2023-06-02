@@ -1,0 +1,41 @@
+h1, h2{
+    background-color: plum;
+}
+h1 h2{
+    background-color: plum;
+}
+li{
+    color: #333;
+    font-size: 32px;
+}
+.kor{
+    color: skyblue;
+}
+#jp{
+    color: crimson;
+}
+#incheon{
+    color: darkblue;
+}
+#leader{
+    color: purple;
+}
+#five{
+    text-decoration: underline;
+}
+.even_number{
+    background-color: #eee;
+}
+.odd_number{
+    background-color: #aaa;
+}
+h5 > h6{
+    color: #333;
+    font-size: 32px;
+}
+input {
+    background-color: aqua;
+}
+#ralee{
+    text-decoration: overline;
+}
