@@ -3,6 +3,10 @@
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
+    justify-content: center;
+    max-width: calc(150px * 4 + 80px * 3);
+    margin-left: auto;
+    margin-right: auto;
     /*row-gap : 20px; ==  column-gap : 20px;*/
 }
 
