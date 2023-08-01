@@ -24,7 +24,7 @@
     box-shadow: 0 32px 64px #e0e0e0; /*그림자 더 밑으로, 더 흐리게, 더 밝게*/
     transform: translateY(-8px); /*위로 8px 이동*/
 }
-.book-item > img{
+.book-item img{
     width: 150px;
     display: block; /*이미지 밑에 살짝 생기는 여백 문제 해결*/
 }
