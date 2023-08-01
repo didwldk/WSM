@@ -18,9 +18,13 @@
 
 .book-item{
     box-shadow: 0 16px 32px #ddd;
-
+    transition: all 0.2s; /*마우스 벗어나는 경우에도 자연스럽게 내려오게*/
 }
-
+.book-item:hover{
+    box-shadow: 0 32px 64px #e0e0e0; /*그림자 더 밑으로, 더 흐리게, 더 밝게*/
+    transform: translateY(-8px); /*위로 8px 이동*/
+}
 .book-item > img{
     width: 150px;
+    display: block; /*이미지 밑에 살짝 생기는 여백 문제 해결*/
 }
