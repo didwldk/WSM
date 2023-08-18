@@ -35,7 +35,9 @@ bookImageDiv.innerHTML = `<img src="${bookImage}"/>`; //띄어쓰기 때문에 �
 const titleDiv = document.getElementsByClassName("title")[1];
 //js 변수.innerHTML();
 titleDiv.innerHTML = title;
-
+//titleDiv에 title 속성에 값으로 변수 title 넣자
+//titleDiv.setAttribute("title", title);
+titleDiv.title = title;
 const authorDiv = document.getElementsByClassName("author")[1];
 authorDiv.innerHTML = author;
 
