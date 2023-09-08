@@ -24,7 +24,6 @@ main{
 .dates.container{
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    grid-template-rows: repeat();
     padding: 10px;
 }
 .date.item{
