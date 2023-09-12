@@ -34,6 +34,11 @@ main{
     display: grid;
     place-items: center; /* 글자 수평 수직 가운데로 */
 }
+.date.item:nth-child(1){
+    background-color: aquamarine;
+    display: grid;
+    grid-column-start: 6;
+}
 .review.flex-container{
     display: flex;
     flex-direction: column;
